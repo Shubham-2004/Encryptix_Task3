@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        /* Styling the body element */
+        body {
+            background-color: #FFE4B5; /* Papaya Whip - reminiscent of vintage film tones */
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Styling the title */
+        #title {
+            text-align: center;
+            font-size: 3.5em;
+            color: #8B4513; /* Saddle Brown - evokes earthy tones */
+            margin-top: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* subtle shadow */
+        }
+        
+        /* Styling the main content area */
+        #main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Creamy white background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+        }
+
+        /* Styling the navbar */
+        /* Styling the navbar */
+nav {
+    background-color: #8B4513; /* Saddle Brown */
+    padding: 10px 0; /* Add some padding for better spacing */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFE4B5; /* Papaya Whip - Text color */
+    margin: 0 15px; /* Increased margin for better spacing */
+    font-size: 1.2em;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+nav a:hover {
+    color: #FFD700; /* Gold - Hover color */
+}
+
+nav a {
+    /* Other styles */
+    position: relative; /* Add position relative for pseudo-element */
+}
+
+nav a:before {
+    content: ''; /* Create a pseudo-element */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* Height of the sliding bar */
+    background-color: #FFD700; /* Initial color of the sliding bar */
+    transition: width 0.3s; /* Smooth transition for width change */
+}
+
+nav a:hover:before {
+    width: 100%; /* Width of the sliding bar on hover */
+}
+
+        /* Styling the image */
+        #img {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Styling the image to fit within the container */
+        img {
+            max-width: 100%; /* Ensures the image doesn't exceed the container width */
+            height: auto; /* Maintains aspect ratio */
+        }
+
+        /* Styling the image caption */
+        #caption {
+            display: block;
+            text-align: center;
+            font-size: 16px;
+            color: #8B4513; /* Saddle Brown - matching title */
+            margin-top: 10px;
+        }
+
+        /* Styling the tribute data */
+        #tribute-data {
+            margin-top: 30px;
+        }
+        
+        /* Styling the section titles */
+        .section-title {
+            font-size: 1.8em;
+            color: #8B4513; /* Saddle Brown - matching title */
+            margin-bottom: 10px;
+        }
+        
+        /* Styling the paragraph text */
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #2F4F4F; /* Dark Slate Gray - for readability */
+            margin-bottom: 15px;
+        }
+        
+        /* Styling the link */
+        #tribute-link {
+            text-decoration: none;
+            color: #8B4513; /* Saddle Brown - matching title */
+        }
+        
+        /* Styling the attribution */
+        #attribution {
+            font-size: 0.8em;
+            color: #2F4F4F; /* Dark Slate Gray - for readability */
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#biography">Biography</a>
+        <a href="#notable-films">Notable Films</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#film-making-style">Film Making Style</a>
+        <a href="#legacy">Legacy</a>
+        <a href="#impact">Impact</a>
+    </nav>
+
+    <main id="main">
+        <!-- Title of the page -->
+        <h1 id="title">Satyajit Ray</h1>
+
+        <div id="img">
+            <!-- Image of the Tribute Person -->
+            <img src="https://images.indianexpress.com/2016/05/satyajit-ray_1500_ie.jpg?resize=450" alt="Satyajit Ray">
+            <small id="caption">
+                Legendary filmmaker, writer, and artist.
+            </small>
+        </div>
+
+        <div id="tribute-data">
+            <!-- Biography and Achievements -->
+            <h2 id="biography" class="section-title">Biography</h2>
+            <p>
+                Satyajit Ray (1921–1992) was a pioneering Indian filmmaker, celebrated globally for his profound contributions to cinema. His directorial debut, 
+                "Pather Panchali" (1955), marked the beginning of the iconic "Apu Trilogy," garnering international acclaim and numerous awards. Ray's films, known for their realism and humanism, 
+                captured the essence of Indian life with unparalleled depth and sensitivity. Beyond filmmaking, Ray was a prolific writer, illustrator, and composer, further solidifying his legacy as a multifaceted artist.
+                 His impact on cinema and culture endures, inspiring generations of filmmakers and artists worldwide.
+            </p>
+            <!-- Biography content here -->
+
+            <h2 id="notable-films" class="section-title">Notable Films</h2>
+            <p>Satyajit Ray is renowned for his exceptional contributions to cinema, with several notable films that have left an indelible mark on the industry:</p>
+
+<p>1. <i>Pather Panchali</i> (1955) - The first film of the "Apu Trilogy," introducing Ray's masterful storytelling and cinematic style.</p>
+
+<p>2. <i>Aparajito</i> (1956) - The second installment of the trilogy, continuing the poignant narrative of Apu's journey through life.</p>
+
+<p>3. <i>Apur Sansar</i> (1959) - Concluding the trilogy, this film explores Apu's adulthood and the complexities of human relationships.</p>
+
+<p>4. <i>Charulata</i> (1964) - A poignant portrayal of a woman's emotional journey, capturing the nuances of love and longing.</p>
+
+<p>5. <i>Devi</i> (1960) - A thought-provoking exploration of faith, superstition, and the human psyche.</p>
+
+<p>6. <i>Jalsaghar</i> (1958) - A mesmerizing tale set in the fading era of feudalism, depicting the clash between tradition and modernity.</p>
+
+<p>These films, among others, showcase Ray's unparalleled storytelling prowess and artistic vision.</p>
+
+            <!-- Notable Films content here -->
+
+            <h2 id="achievements" class="section-title">Achievements</h2>
+            <p>1.Ray received 36 National Film Awards and numerous international honors, including the Honorable Prize at the 11th Moscow International Film Festival in 1979.</p>
+
+            <p>2.He won the Silver Bear for Best Director at the Berlin International Film Festival multiple times and holds the record for the most Golden Bear nominations.</p>
+        
+            <p>3.Ray received the Golden Lion Honorary Award at the Venice Film Festival and an honorary "Hommage à Satyajit Ray" award at the Cannes Film Festival.</p>
+        
+            <p>4.He was awarded the Dadasaheb Phalke Award, the Legion of Honor by the President of France, and the Bharat Ratna, India's highest civilian honor.</p>
+        
+            <p>5.The Academy of Motion Picture Arts and Sciences honored him with an Honorary Award for Lifetime Achievement.</p>
+        
+            <p>6.Ray ranked highly in various polls, including being placed No. 7 in the Sight & Sound Critics' Top Ten Poll and No. 25 in Entertainment Weekly's "50 Greatest Directors" list.</p>
+        
+            <p>7.In 2022, the Sydney Film Festival and BFI Southbank paid homage to him with retrospectives.</p>
+        
+            <p>8.These achievements solidify Satyajit Ray's status as one of the most influential filmmakers of all time.</p>
+            <!-- Achievements content here -->
+
+            <h2 id="film-making-style" class="section-title">Film Making Style</h2>
+            <p>Satyajit Ray's filmmaking style is characterized by its realism, simplicity, and deep humanism. He was a master at capturing the nuances of everyday life, often portraying the struggles and aspirations of ordinary people with remarkable empathy and sensitivity. Ray's films are known for their understated yet powerful storytelling, devoid of melodrama or exaggeration. His use of natural light and locations adds authenticity to his narratives, creating a sense of intimacy with the audience. Ray's attention to detail, nuanced character development, and subtle social commentary make his films timeless classics that continue to resonate with audiences worldwide.</p>
+            <!-- Film Making Style content here -->
+
+            <h2 id="legacy" class="section-title">Legacy</h2>
+            <p>
+                Satyajit Ray's legacy is marked by his profound impact on Indian and world cinema. Renowned for his realistic portrayals, deep humanism, and unparalleled artistic brilliance, Ray's films transcend time and cultural barriers. His Honorary Academy Award for Lifetime Achievement in 1992, just before his passing, solidified his status as one of the greatest directors of all time. His influence continues to inspire filmmakers and artists globally, shaping the cinematic landscape for generations to come.
+            </p>
+
+            <!-- Legacy content here -->
+
+            <h2 id="impact" class="section-title">Impact</h2>
+            Satyajit Ray's influence transcends the realm of cinema. Beyond being a pioneering filmmaker, he was a multifaceted artist, renowned for his prowess as a writer, illustrator, and music composer. His literary works, illustrations, and compositions reflect his deep understanding of human nature and societal intricacies, inspiring not only filmmakers but also writers, artists, and musicians worldwide. Ray's enduring legacy continues to shape the creative landscape, leaving an indelible mark on generations of creators.
+            <!-- Impact content here -->
+
+            <p id="attribution">
+                For more information, check out
+                <a id="tribute-link" href="https://en.wikipedia.org/wiki/Satyajit_Ray">
+                    Satyajit Ray on Wikipedia
+                </a>.
+                <br>
+                [Developed by Shubham Bera]
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>
